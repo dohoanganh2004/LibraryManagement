@@ -9,7 +9,7 @@ public partial class LogHoatDong
 
     public DateTime? ThoiGian { get; set; }
 
-    public string? MaNguoiDung { get; set; }
+    public int? MaNguoiDung { get; set; }
 
     public string? LoaiNguoiDung { get; set; }
 

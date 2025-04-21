@@ -7,7 +7,7 @@ public partial class TheThuVien
 {
     public string MaThe { get; set; } = null!;
 
-    public string? MaDocGia { get; set; }
+    public int? MaDocGia { get; set; }
 
     public DateTime? NgayCapThe { get; set; }
 

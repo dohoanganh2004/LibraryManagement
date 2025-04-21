@@ -5,7 +5,7 @@ namespace eLibrary.Models;
 
 public partial class NhanVien
 {
-    public string MaNhanVien { get; set; } = null!;
+    public int MaNhanVien { get; set; }
 
     public string HoVaTen { get; set; } = null!;
 

@@ -5,7 +5,7 @@ namespace eLibrary.Models;
 
 public partial class DocGium
 {
-    public string MaDocGia { get; set; } = null!;
+    public int MaDocGia { get; set; }
 
     public string TenDocGia { get; set; } = null!;
 
