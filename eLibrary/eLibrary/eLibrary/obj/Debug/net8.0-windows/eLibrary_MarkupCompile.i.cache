@@ -10,11 +10,11 @@ none
 false
 TRACE;DEBUG;NET;NET8_0;NETCOREAPP
 C:\Users\PC\Desktop\LibraryManagement\LibraryManagement\eLibrary\eLibrary\eLibrary\App.xaml
-4732825526
+5915746509
 
-241454595892
+26387010425
 2441222694218
-View\DangKyTaiKhoan.xaml;View\DocGiaWindow.xaml;View\Login.xaml;View\NhanVienWindow.xaml;
+View\DangKyTaiKhoan.xaml;View\DocGiaWindow.xaml;View\ForgotPassword.xaml;View\Login.xaml;View\NhanVienWindow.xaml;
 
 False
 

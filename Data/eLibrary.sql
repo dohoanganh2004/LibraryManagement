@@ -1,5 +1,9 @@
-﻿--create database eLibrary
--- Tạo các bảng dữ liệu chuẩn hóa
+﻿-- Tạo database
+--CREATE DATABASE eLibrary;
+GO
+
+USE eLibrary;
+GO
 
 -- Bảng Thể loại
 CREATE TABLE TheLoai (
@@ -47,7 +51,7 @@ CREATE TABLE Sach (
 
 -- Bảng Độc giả
 CREATE TABLE DocGia (
-    MaDocGia NVARCHAR(10) NOT NULL PRIMARY KEY,
+    MaDocGia INT IDENTITY(1,1) PRIMARY KEY,
     TenDocGia NVARCHAR(100) NOT NULL,
     GioiTinh NVARCHAR(10),
     NgaySinh DATE,
@@ -61,7 +65,7 @@ CREATE TABLE DocGia (
 -- Bảng Thẻ thư viện
 CREATE TABLE TheThuVien (
     MaThe NVARCHAR(10) NOT NULL PRIMARY KEY,
-    MaDocGia NVARCHAR(10),
+    MaDocGia INT,
     NgayCapThe DATETIME DEFAULT GETDATE(),
     NgayHetHan DATE,
     TrangThai BIT,
@@ -100,7 +104,7 @@ CREATE TABLE QuyenHan (
 
 -- Bảng Nhân viên
 CREATE TABLE NhanVien (
-    MaNhanVien NVARCHAR(10) NOT NULL PRIMARY KEY,
+    MaNhanVien INT IDENTITY(1,1) PRIMARY KEY,
     HoVaTen NVARCHAR(100) NOT NULL UNIQUE,
     Email NVARCHAR(100) UNIQUE,
     SoDienThoai NVARCHAR(20) UNIQUE,
@@ -111,20 +115,14 @@ CREATE TABLE NhanVien (
     FOREIGN KEY (IDQuyen) REFERENCES QuyenHan(IDQuyen)
 );
 
--- Bảng Log hoạt động (nhật ký thao tác)
+-- Bảng Log hoạt động
 CREATE TABLE LogHoatDong (
     ID INT IDENTITY(1,1) PRIMARY KEY,
     ThoiGian DATETIME DEFAULT GETDATE(),
-    MaNguoiDung NVARCHAR(10),
+    MaNguoiDung INT,
     LoaiNguoiDung NVARCHAR(20), -- 'DocGia' hoặc 'NhanVien'
     HanhDong NVARCHAR(255),     -- VD: 'Đăng nhập', 'Mượn sách'
     BangLienQuan NVARCHAR(100), -- VD: 'Sach', 'DocGia'
     KhoaChinh NVARCHAR(50),     -- VD: 'S001', 'DG001'
     GhiChu NVARCHAR(1000)
 );
-
-
-
-
-
-

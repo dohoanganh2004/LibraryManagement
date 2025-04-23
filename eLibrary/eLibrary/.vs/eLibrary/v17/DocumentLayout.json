@@ -3,12 +3,12 @@
   "WorkspaceRootPath": "C:\\Users\\PC\\Desktop\\LibraryManagement\\LibraryManagement\\eLibrary\\eLibrary\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{73C60BB3-EE12-4A84-8899-887AB831D4A1}|eLibrary\\eLibrary.csproj|c:\\users\\pc\\desktop\\librarymanagement\\librarymanagement\\elibrary\\elibrary\\elibrary\\view\\dangkytaikhoan.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{73C60BB3-EE12-4A84-8899-887AB831D4A1}|eLibrary\\eLibrary.csproj|solutionrelative:elibrary\\view\\dangkytaikhoan.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{73C60BB3-EE12-4A84-8899-887AB831D4A1}|eLibrary\\eLibrary.csproj|c:\\users\\pc\\desktop\\librarymanagement\\librarymanagement\\elibrary\\elibrary\\elibrary\\view\\forgotpassword.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{73C60BB3-EE12-4A84-8899-887AB831D4A1}|eLibrary\\eLibrary.csproj|solutionrelative:elibrary\\view\\forgotpassword.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{73C60BB3-EE12-4A84-8899-887AB831D4A1}|eLibrary\\eLibrary.csproj|c:\\users\\pc\\desktop\\librarymanagement\\librarymanagement\\elibrary\\elibrary\\elibrary\\models\\docgium.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{73C60BB3-EE12-4A84-8899-887AB831D4A1}|eLibrary\\eLibrary.csproj|solutionrelative:elibrary\\models\\docgium.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{73C60BB3-EE12-4A84-8899-887AB831D4A1}|eLibrary\\eLibrary.csproj|c:\\users\\pc\\desktop\\librarymanagement\\librarymanagement\\elibrary\\elibrary\\elibrary\\view\\forgotpassword.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{73C60BB3-EE12-4A84-8899-887AB831D4A1}|eLibrary\\eLibrary.csproj|solutionrelative:elibrary\\view\\forgotpassword.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{73C60BB3-EE12-4A84-8899-887AB831D4A1}|eLibrary\\eLibrary.csproj|c:\\users\\pc\\desktop\\librarymanagement\\librarymanagement\\elibrary\\elibrary\\elibrary\\view\\dangkytaikhoan.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
@@ -17,6 +17,10 @@
     {
       "AbsoluteMoniker": "D:0:0:{73C60BB3-EE12-4A84-8899-887AB831D4A1}|eLibrary\\eLibrary.csproj|c:\\users\\pc\\desktop\\librarymanagement\\librarymanagement\\elibrary\\elibrary\\elibrary\\view\\login.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
       "RelativeMoniker": "D:0:0:{73C60BB3-EE12-4A84-8899-887AB831D4A1}|eLibrary\\eLibrary.csproj|solutionrelative:elibrary\\view\\login.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{73C60BB3-EE12-4A84-8899-887AB831D4A1}|eLibrary\\eLibrary.csproj|c:\\users\\pc\\desktop\\librarymanagement\\librarymanagement\\elibrary\\elibrary\\elibrary\\view\\login.xaml.cs||{8B382828-6202-11D1-8870-0000F87579D2}|",
+      "RelativeMoniker": "D:0:0:{73C60BB3-EE12-4A84-8899-887AB831D4A1}|eLibrary\\eLibrary.csproj|solutionrelative:elibrary\\view\\login.xaml.cs||{8B382828-6202-11D1-8870-0000F87579D2}|"
     }
   ],
   "DocumentGroupContainers": [
@@ -28,19 +32,6 @@
           "DockedWidth": 200,
           "SelectedChildIndex": 4,
           "Children": [
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "DocGium.cs",
-              "DocumentMoniker": "C:\\Users\\PC\\Desktop\\LibraryManagement\\LibraryManagement\\eLibrary\\eLibrary\\eLibrary\\Models\\DocGium.cs",
-              "RelativeDocumentMoniker": "eLibrary\\Models\\DocGium.cs",
-              "ToolTip": "C:\\Users\\PC\\Desktop\\LibraryManagement\\LibraryManagement\\eLibrary\\eLibrary\\eLibrary\\Models\\DocGium.cs",
-              "RelativeToolTip": "eLibrary\\Models\\DocGium.cs",
-              "ViewState": "AgIAAAkAAAAAAAAAAAA1wAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-21T15:39:24.252Z",
-              "EditorCaption": ""
-            },
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{1c64b9c2-e352-428e-a56d-0ace190b99a6}"
@@ -55,15 +46,40 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "DangKyTaiKhoan.xaml.cs",
-              "DocumentMoniker": "C:\\Users\\PC\\Desktop\\LibraryManagement\\LibraryManagement\\eLibrary\\eLibrary\\eLibrary\\View\\DangKyTaiKhoan.xaml.cs",
-              "RelativeDocumentMoniker": "eLibrary\\View\\DangKyTaiKhoan.xaml.cs",
-              "ToolTip": "C:\\Users\\PC\\Desktop\\LibraryManagement\\LibraryManagement\\eLibrary\\eLibrary\\eLibrary\\View\\DangKyTaiKhoan.xaml.cs",
-              "RelativeToolTip": "eLibrary\\View\\DangKyTaiKhoan.xaml.cs",
-              "ViewState": "AgIAACIAAAAAAAAAAAAmwB0AAAAAAAAAAAAAAA==",
+              "DocumentIndex": 4,
+              "Title": "Login.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\PC\\Desktop\\LibraryManagement\\LibraryManagement\\eLibrary\\eLibrary\\eLibrary\\View\\Login.xaml.cs",
+              "RelativeDocumentMoniker": "eLibrary\\View\\Login.xaml.cs",
+              "ToolTip": "C:\\Users\\PC\\Desktop\\LibraryManagement\\LibraryManagement\\eLibrary\\eLibrary\\eLibrary\\View\\Login.xaml.cs",
+              "RelativeToolTip": "eLibrary\\View\\Login.xaml.cs",
+              "ViewState": "AgIAADMAAAAAAAAAAAAYwDsAAAB0AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-21T15:34:59.949Z",
+              "WhenOpened": "2025-04-23T16:40:01.279Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ForgotPassword.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\PC\\Desktop\\LibraryManagement\\LibraryManagement\\eLibrary\\eLibrary\\eLibrary\\View\\ForgotPassword.xaml.cs",
+              "RelativeDocumentMoniker": "eLibrary\\View\\ForgotPassword.xaml.cs",
+              "ToolTip": "C:\\Users\\PC\\Desktop\\LibraryManagement\\LibraryManagement\\eLibrary\\eLibrary\\eLibrary\\View\\ForgotPassword.xaml.cs",
+              "RelativeToolTip": "eLibrary\\View\\ForgotPassword.xaml.cs",
+              "ViewState": "AgIAABwAAAAAAAAAAAAowCsAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-23T16:26:14.378Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ForgotPassword.xaml",
+              "DocumentMoniker": "C:\\Users\\PC\\Desktop\\LibraryManagement\\LibraryManagement\\eLibrary\\eLibrary\\eLibrary\\View\\ForgotPassword.xaml",
+              "RelativeDocumentMoniker": "eLibrary\\View\\ForgotPassword.xaml",
+              "ToolTip": "C:\\Users\\PC\\Desktop\\LibraryManagement\\LibraryManagement\\eLibrary\\eLibrary\\eLibrary\\View\\ForgotPassword.xaml",
+              "RelativeToolTip": "eLibrary\\View\\ForgotPassword.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-04-23T16:02:29.758Z",
               "EditorCaption": ""
             },
             {

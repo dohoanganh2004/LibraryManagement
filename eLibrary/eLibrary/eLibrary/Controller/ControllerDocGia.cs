@@ -34,5 +34,19 @@ namespace eLibrary.Controller
             context.Remove(docGium);
             context.SaveChanges();
         }
+        // lay thong tin doc gia theo Email va Phone
+        public DocGium? GetDocGiaByEmailPhone(string email, string phone)
+        {
+            ELibraryContext context = new ELibraryContext();
+            return context.DocGia.Where(dg => dg.Email.Equals(email) || dg.SoDienThoai.Equals(phone)).FirstOrDefault();
+        }
+
+
+        // lay thong tin dco gia theo email
+        public DocGium? GetDocGiaByEmail(string email)
+        {
+            ELibraryContext context = new ELibraryContext();
+            return context.DocGia.Where(dg => dg.Email.Equals(email)).FirstOrDefault();
+        }
     }
 }

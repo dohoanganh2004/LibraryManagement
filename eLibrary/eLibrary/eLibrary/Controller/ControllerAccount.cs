@@ -22,5 +22,7 @@ namespace eLibrary.Controller
             ELibraryContext context = new ELibraryContext();
             return context.NhanViens.Where(nv => nv.Email.Equals(email) && nv.MatKhau.Equals(matkhau)).FirstOrDefault();
         }
+
+       
     }
 }

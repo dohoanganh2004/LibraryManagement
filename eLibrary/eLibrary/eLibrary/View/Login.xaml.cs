@@ -25,6 +25,7 @@ namespace eLibrary.View
         DocGiaWindow docgiaWindow = new DocGiaWindow();
         NhanVienWindow nhanvienWindow = new NhanVienWindow();
         DangKyTaiKhoan dangKyTaiKhoan = new DangKyTaiKhoan();
+        ForgotPassword forgotPassword = new ForgotPassword();   
 
         
         public Login()
@@ -67,7 +68,8 @@ namespace eLibrary.View
 
         private void ForgotPassword_Click(object sender, MouseButtonEventArgs e)
         {
-
+            forgotPassword.Show();
+            this.Close();
         }
     }
 }

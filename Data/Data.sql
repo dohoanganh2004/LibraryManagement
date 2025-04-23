@@ -27,16 +27,16 @@ INSERT INTO Sach (MaSach, MaNXB, TenSach, MoTa, MaTacGia, MaTheLoai, NamXuatBan,
 ('S005', 5, N'Chiến tranh và Hòa bình', N'Tác phẩm kinh điển của Nga', 5, 4, '1869-01-01', 2, NULL, N'Còn hàng', 150000, 10);
 
 -- Độc giả
-INSERT INTO DocGia (MaDocGia, TenDocGia, GioiTinh, NgaySinh, DiaChi, Email, SoDienThoai, MatKhau, Avartar) VALUES
-('DG001', N'Nguyễn Văn A', N'Nam', '2000-01-01', N'Hà Nội', 'vana@gmail.com', '0123456789', '123456', NULL),
-('DG002', N'Trần Thị B', N'Nữ', '1999-03-15', N'Hồ Chí Minh', 'thib@gmail.com', '0987654321', 'abcdef', NULL),
-('DG003', N'Lê Minh C', N'Nam', '2001-07-10', N'Đà Nẵng', 'minhc@gmail.com', '0911111111', 'minhpass', NULL);
+INSERT INTO DocGia (TenDocGia, GioiTinh, NgaySinh, DiaChi, Email, SoDienThoai, MatKhau, Avartar) VALUES
+(N'Nguyễn Văn A', N'Nam', '2000-01-01', N'Hà Nội', 'vana@gmail.com', '0123456789', '123456', NULL),
+(N'Trần Thị B', N'Nữ', '1999-03-15', N'Hồ Chí Minh', 'thib@gmail.com', '0987654321', 'abcdef', NULL),
+(N'Lê Minh C', N'Nam', '2001-07-10', N'Đà Nẵng', 'minhc@gmail.com', '0911111111', 'minhpass', NULL);
 
--- Thẻ thư viện
+-- Thẻ thư viện (phải lấy đúng MaDocGia vừa tạo)
 INSERT INTO TheThuVien (MaThe, MaDocGia, NgayCapThe, NgayHetHan, TrangThai, SoSachDuocMuon, SoSachDangMuon) VALUES
-('T001', 'DG001', GETDATE(), '2026-12-31', 1, 5, 1),
-('T002', 'DG002', GETDATE(), '2026-12-31', 1, 5, 0),
-('T003', 'DG003', GETDATE(), '2026-12-31', 1, 5, 2);
+('T001', 1, GETDATE(), '2026-12-31', 1, 5, 1),
+('T002', 2, GETDATE(), '2026-12-31', 1, 5, 0),
+('T003', 3, GETDATE(), '2026-12-31', 1, 5, 2);
 
 -- Mượn - Trả sách
 INSERT INTO MuonTraSach (MaThe, GhiChu) VALUES
@@ -54,15 +54,15 @@ INSERT INTO MuonTraSachChiTiet (MaMuonSach, MaSach, NgayMuon, NgayHenTra, NgayTr
 INSERT INTO QuyenHan (TenQuyen) VALUES
 (N'Quản trị viên'), (N'Thủ thư'), (N'Nhân viên');
 
--- Nhân viên
-INSERT INTO NhanVien (MaNhanVien, HoVaTen, Email, SoDienThoai, NgaySinh, Avartar, MatKhau, IDQuyen) VALUES
-('NV001', N'Lê Văn Thư', 'vanthu@elibrary.com', '0901234567', '1990-02-20', NULL, 'admin123', 1),
-('NV002', N'Hồ Hữu Lộc', 'locnv@elibrary.com', '0912345678', '1992-05-10', NULL, '123456', 2),
-('NV003', N'Nguyễn Văn Khoa', 'khoa@elibrary.com', '0922334455', '1995-08-08', NULL, 'nvkhoa', 3);
+-- Nhân viên (IDQuyen: 1=Admin, 2=Thủ thư, 3=Nhân viên)
+INSERT INTO NhanVien (HoVaTen, Email, SoDienThoai, NgaySinh, Avartar, MatKhau, IDQuyen) VALUES
+(N'Lê Văn Thư', 'vanthu@elibrary.com', '0901234567', '1990-02-20', NULL, 'admin123', 1),
+(N'Hồ Hữu Lộc', 'locnv@elibrary.com', '0912345678', '1992-05-10', NULL, '123456', 2),
+(N'Nguyễn Văn Khoa', 'khoa@elibrary.com', '0922334455', '1995-08-08', NULL, 'nvkhoa', 3);
 
--- Nhật ký hệ thống
+-- Nhật ký hệ thống (tham chiếu theo MaDocGia, MaNhanVien là INT)
 INSERT INTO LogHoatDong (MaNguoiDung, LoaiNguoiDung, HanhDong, BangLienQuan, KhoaChinh, GhiChu) VALUES
-('NV001', 'NhanVien', N'Thêm sách mới', 'Sach', 'S001', N'Tên sách: Mắt Biếc'),
-('DG001', 'DocGia', N'Mượn sách', 'MuonTraSach', '1', N'Mượn sách Mắt Biếc'),
-('NV002', 'NhanVien', N'Cập nhật thông tin sách', 'Sach', 'S002', N'Cập nhật mô tả chi tiết'),
-('DG003', 'DocGia', N'Mượn sách', 'MuonTraSach', '3', N'Mượn sách Chiến tranh và Hòa bình');
+(1, 'NhanVien', N'Thêm sách mới', 'Sach', 'S001', N'Tên sách: Mắt Biếc'),
+(1, 'DocGia', N'Mượn sách', 'MuonTraSach', '1', N'Mượn sách Mắt Biếc'),
+(2, 'NhanVien', N'Cập nhật thông tin sách', 'Sach', 'S002', N'Cập nhật mô tả chi tiết'),
+(3, 'DocGia', N'Mượn sách', 'MuonTraSach', '3', N'Mượn sách Chiến tranh và Hòa bình');
