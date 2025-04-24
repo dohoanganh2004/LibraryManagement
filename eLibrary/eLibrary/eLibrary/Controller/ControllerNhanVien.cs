@@ -14,5 +14,12 @@ namespace eLibrary.Controller
             ELibraryContext context = new ELibraryContext();
             return context.NhanViens.Where(nv => nv.Email.Equals(email)).FirstOrDefault();  
         }
+
+        // Lay Nhan Vien
+        public List<NhanVien> GetAllNhanVien()
+        {
+            ELibraryContext context = new ELibraryContext();
+            return context.NhanViens.ToList();
+        }
     }
 }

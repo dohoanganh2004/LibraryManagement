@@ -3,24 +3,20 @@
   "WorkspaceRootPath": "C:\\Users\\PC\\Desktop\\LibraryManagement\\LibraryManagement\\eLibrary\\eLibrary\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{73C60BB3-EE12-4A84-8899-887AB831D4A1}|eLibrary\\eLibrary.csproj|c:\\users\\pc\\desktop\\librarymanagement\\librarymanagement\\elibrary\\elibrary\\elibrary\\view\\login.xaml.cs||{8B382828-6202-11D1-8870-0000F87579D2}|",
-      "RelativeMoniker": "D:0:0:{73C60BB3-EE12-4A84-8899-887AB831D4A1}|eLibrary\\eLibrary.csproj|solutionrelative:elibrary\\view\\login.xaml.cs||{8B382828-6202-11D1-8870-0000F87579D2}|"
+      "AbsoluteMoniker": "D:0:0:{73C60BB3-EE12-4A84-8899-887AB831D4A1}|eLibrary\\eLibrary.csproj|c:\\users\\pc\\desktop\\librarymanagement\\librarymanagement\\elibrary\\elibrary\\elibrary\\view\\quanlynhanvien.xaml.cs||{8B382828-6202-11D1-8870-0000F87579D2}|",
+      "RelativeMoniker": "D:0:0:{73C60BB3-EE12-4A84-8899-887AB831D4A1}|eLibrary\\eLibrary.csproj|solutionrelative:elibrary\\view\\quanlynhanvien.xaml.cs||{8B382828-6202-11D1-8870-0000F87579D2}|"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{73C60BB3-EE12-4A84-8899-887AB831D4A1}|eLibrary\\eLibrary.csproj|c:\\users\\pc\\desktop\\librarymanagement\\librarymanagement\\elibrary\\elibrary\\elibrary\\view\\login.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{73C60BB3-EE12-4A84-8899-887AB831D4A1}|eLibrary\\eLibrary.csproj|solutionrelative:elibrary\\view\\login.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+      "AbsoluteMoniker": "D:0:0:{73C60BB3-EE12-4A84-8899-887AB831D4A1}|eLibrary\\eLibrary.csproj|c:\\users\\pc\\desktop\\librarymanagement\\librarymanagement\\elibrary\\elibrary\\elibrary\\view\\quanlynhanvien.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{73C60BB3-EE12-4A84-8899-887AB831D4A1}|eLibrary\\eLibrary.csproj|solutionrelative:elibrary\\view\\quanlynhanvien.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{73C60BB3-EE12-4A84-8899-887AB831D4A1}|eLibrary\\eLibrary.csproj|c:\\users\\pc\\desktop\\librarymanagement\\librarymanagement\\elibrary\\elibrary\\elibrary\\view\\forgotpassword.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{73C60BB3-EE12-4A84-8899-887AB831D4A1}|eLibrary\\eLibrary.csproj|solutionrelative:elibrary\\view\\forgotpassword.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{73C60BB3-EE12-4A84-8899-887AB831D4A1}|eLibrary\\eLibrary.csproj|c:\\users\\pc\\desktop\\librarymanagement\\librarymanagement\\elibrary\\elibrary\\elibrary\\models\\quyenhan.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{73C60BB3-EE12-4A84-8899-887AB831D4A1}|eLibrary\\eLibrary.csproj|solutionrelative:elibrary\\models\\quyenhan.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{73C60BB3-EE12-4A84-8899-887AB831D4A1}|eLibrary\\eLibrary.csproj|c:\\users\\pc\\desktop\\librarymanagement\\librarymanagement\\elibrary\\elibrary\\elibrary\\view\\forgotpassword.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{73C60BB3-EE12-4A84-8899-887AB831D4A1}|eLibrary\\eLibrary.csproj|solutionrelative:elibrary\\view\\forgotpassword.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{73C60BB3-EE12-4A84-8899-887AB831D4A1}|eLibrary\\eLibrary.csproj|c:\\users\\pc\\desktop\\librarymanagement\\librarymanagement\\elibrary\\elibrary\\elibrary\\view\\dangkytaikhoan.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{73C60BB3-EE12-4A84-8899-887AB831D4A1}|eLibrary\\eLibrary.csproj|solutionrelative:elibrary\\view\\dangkytaikhoan.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+      "AbsoluteMoniker": "D:0:0:{73C60BB3-EE12-4A84-8899-887AB831D4A1}|eLibrary\\eLibrary.csproj|c:\\users\\pc\\desktop\\librarymanagement\\librarymanagement\\elibrary\\elibrary\\elibrary\\models\\nhanvien.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{73C60BB3-EE12-4A84-8899-887AB831D4A1}|eLibrary\\eLibrary.csproj|solutionrelative:elibrary\\models\\nhanvien.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -30,8 +26,47 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 0,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "QuanLyNhanVien.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\PC\\Desktop\\LibraryManagement\\LibraryManagement\\eLibrary\\eLibrary\\eLibrary\\View\\QuanLyNhanVien.xaml.cs",
+              "RelativeDocumentMoniker": "eLibrary\\View\\QuanLyNhanVien.xaml.cs",
+              "ToolTip": "C:\\Users\\PC\\Desktop\\LibraryManagement\\LibraryManagement\\eLibrary\\eLibrary\\eLibrary\\View\\QuanLyNhanVien.xaml.cs",
+              "RelativeToolTip": "eLibrary\\View\\QuanLyNhanVien.xaml.cs",
+              "ViewState": "AgIAABIAAAAAAAAAAAAAACAAAAA0AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-24T14:51:10.603Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "QuyenHan.cs",
+              "DocumentMoniker": "C:\\Users\\PC\\Desktop\\LibraryManagement\\LibraryManagement\\eLibrary\\eLibrary\\eLibrary\\Models\\QuyenHan.cs",
+              "RelativeDocumentMoniker": "eLibrary\\Models\\QuyenHan.cs",
+              "ToolTip": "C:\\Users\\PC\\Desktop\\LibraryManagement\\LibraryManagement\\eLibrary\\eLibrary\\eLibrary\\Models\\QuyenHan.cs",
+              "RelativeToolTip": "eLibrary\\Models\\QuyenHan.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-24T14:50:49.554Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "NhanVien.cs",
+              "DocumentMoniker": "C:\\Users\\PC\\Desktop\\LibraryManagement\\LibraryManagement\\eLibrary\\eLibrary\\eLibrary\\Models\\NhanVien.cs",
+              "RelativeDocumentMoniker": "eLibrary\\Models\\NhanVien.cs",
+              "ToolTip": "C:\\Users\\PC\\Desktop\\LibraryManagement\\LibraryManagement\\eLibrary\\eLibrary\\eLibrary\\Models\\NhanVien.cs",
+              "RelativeToolTip": "eLibrary\\Models\\NhanVien.cs",
+              "ViewState": "AgIAAAcAAAAAAAAAAAAzwBcAAAATAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-24T14:43:46.462Z",
+              "EditorCaption": ""
+            },
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{1c64b9c2-e352-428e-a56d-0ace190b99a6}"
@@ -46,64 +81,14 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Login.xaml.cs",
-              "DocumentMoniker": "C:\\Users\\PC\\Desktop\\LibraryManagement\\LibraryManagement\\eLibrary\\eLibrary\\eLibrary\\View\\Login.xaml.cs",
-              "RelativeDocumentMoniker": "eLibrary\\View\\Login.xaml.cs",
-              "ToolTip": "C:\\Users\\PC\\Desktop\\LibraryManagement\\LibraryManagement\\eLibrary\\eLibrary\\eLibrary\\View\\Login.xaml.cs*",
-              "RelativeToolTip": "eLibrary\\View\\Login.xaml.cs*",
-              "ViewState": "AgIAADoAAAAAAAAAAAAYwEcAAAAZAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-23T16:26:29.293Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "ForgotPassword.xaml.cs",
-              "DocumentMoniker": "C:\\Users\\PC\\Desktop\\LibraryManagement\\LibraryManagement\\eLibrary\\eLibrary\\eLibrary\\View\\ForgotPassword.xaml.cs",
-              "RelativeDocumentMoniker": "eLibrary\\View\\ForgotPassword.xaml.cs",
-              "ToolTip": "C:\\Users\\PC\\Desktop\\LibraryManagement\\LibraryManagement\\eLibrary\\eLibrary\\eLibrary\\View\\ForgotPassword.xaml.cs",
-              "RelativeToolTip": "eLibrary\\View\\ForgotPassword.xaml.cs",
-              "ViewState": "AgIAAA8AAAAAAAAAAAAswBwAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-23T16:26:14.378Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "ForgotPassword.xaml",
-              "DocumentMoniker": "C:\\Users\\PC\\Desktop\\LibraryManagement\\LibraryManagement\\eLibrary\\eLibrary\\eLibrary\\View\\ForgotPassword.xaml",
-              "RelativeDocumentMoniker": "eLibrary\\View\\ForgotPassword.xaml",
-              "ToolTip": "C:\\Users\\PC\\Desktop\\LibraryManagement\\LibraryManagement\\eLibrary\\eLibrary\\eLibrary\\View\\ForgotPassword.xaml",
-              "RelativeToolTip": "eLibrary\\View\\ForgotPassword.xaml",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-04-23T16:02:29.758Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "DangKyTaiKhoan.xaml",
-              "DocumentMoniker": "C:\\Users\\PC\\Desktop\\LibraryManagement\\LibraryManagement\\eLibrary\\eLibrary\\eLibrary\\View\\DangKyTaiKhoan.xaml",
-              "RelativeDocumentMoniker": "eLibrary\\View\\DangKyTaiKhoan.xaml",
-              "ToolTip": "C:\\Users\\PC\\Desktop\\LibraryManagement\\LibraryManagement\\eLibrary\\eLibrary\\eLibrary\\View\\DangKyTaiKhoan.xaml",
-              "RelativeToolTip": "eLibrary\\View\\DangKyTaiKhoan.xaml",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-04-21T14:53:04.287Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "Login.xaml",
-              "DocumentMoniker": "C:\\Users\\PC\\Desktop\\LibraryManagement\\LibraryManagement\\eLibrary\\eLibrary\\eLibrary\\View\\Login.xaml",
-              "RelativeDocumentMoniker": "eLibrary\\View\\Login.xaml",
-              "ToolTip": "C:\\Users\\PC\\Desktop\\LibraryManagement\\LibraryManagement\\eLibrary\\eLibrary\\eLibrary\\View\\Login.xaml",
-              "RelativeToolTip": "eLibrary\\View\\Login.xaml",
+              "Title": "QuanLyNhanVien.xaml",
+              "DocumentMoniker": "C:\\Users\\PC\\Desktop\\LibraryManagement\\LibraryManagement\\eLibrary\\eLibrary\\eLibrary\\View\\QuanLyNhanVien.xaml",
+              "RelativeDocumentMoniker": "eLibrary\\View\\QuanLyNhanVien.xaml",
+              "ToolTip": "C:\\Users\\PC\\Desktop\\LibraryManagement\\LibraryManagement\\eLibrary\\eLibrary\\eLibrary\\View\\QuanLyNhanVien.xaml",
+              "RelativeToolTip": "eLibrary\\View\\QuanLyNhanVien.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-04-21T14:41:55.207Z",
+              "WhenOpened": "2025-04-24T13:12:31.038Z",
               "EditorCaption": ""
             }
           ]

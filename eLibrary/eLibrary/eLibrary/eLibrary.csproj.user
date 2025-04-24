@@ -7,6 +7,9 @@
     </ApplicationDefinition>
   </ItemGroup>
   <ItemGroup>
+    <Compile Update="View\AdminWindow.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Update="View\DangKyTaiKhoan.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
@@ -22,8 +25,14 @@
     <Compile Update="View\NhanVienWindow.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
+    <Compile Update="View\QuanLyNhanVien.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
   </ItemGroup>
   <ItemGroup>
+    <Page Update="View\AdminWindow.xaml">
+      <SubType>Designer</SubType>
+    </Page>
     <Page Update="View\DangKyTaiKhoan.xaml">
       <SubType>Designer</SubType>
     </Page>
@@ -37,6 +46,9 @@
       <SubType>Designer</SubType>
     </Page>
     <Page Update="View\NhanVienWindow.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="View\QuanLyNhanVien.xaml">
       <SubType>Designer</SubType>
     </Page>
   </ItemGroup>

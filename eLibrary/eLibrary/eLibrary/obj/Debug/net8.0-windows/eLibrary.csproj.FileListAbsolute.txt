@@ -289,3 +289,7 @@ C:\Users\PC\Desktop\LibraryManagement\LibraryManagement\eLibrary\eLibrary\eLibra
 C:\Users\PC\Desktop\LibraryManagement\LibraryManagement\eLibrary\eLibrary\eLibrary\obj\Debug\net8.0-windows\View\DangKyTaiKhoan.baml
 C:\Users\PC\Desktop\LibraryManagement\LibraryManagement\eLibrary\eLibrary\eLibrary\obj\Debug\net8.0-windows\View\ForgotPassword.baml
 C:\Users\PC\Desktop\LibraryManagement\LibraryManagement\eLibrary\eLibrary\eLibrary\obj\Debug\net8.0-windows\View\ForgotPassword.g.cs
+C:\Users\PC\Desktop\LibraryManagement\LibraryManagement\eLibrary\eLibrary\eLibrary\obj\Debug\net8.0-windows\View\AdminWindow.g.cs
+C:\Users\PC\Desktop\LibraryManagement\LibraryManagement\eLibrary\eLibrary\eLibrary\obj\Debug\net8.0-windows\View\AdminWindow.baml
+C:\Users\PC\Desktop\LibraryManagement\LibraryManagement\eLibrary\eLibrary\eLibrary\obj\Debug\net8.0-windows\View\QuanLyNhanVien.baml
+C:\Users\PC\Desktop\LibraryManagement\LibraryManagement\eLibrary\eLibrary\eLibrary\obj\Debug\net8.0-windows\View\QuanLyNhanVien.g.cs
